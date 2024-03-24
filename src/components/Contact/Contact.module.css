@@ -1,0 +1,26 @@
+.item {
+  border: 1px solid black;
+  min-width: 250px;
+  border-radius: 8px;
+  padding: 12px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.iconWrapper {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.itemButton {
+  border-width: 1px;
+  border-radius: 4px;
+}
